@@ -22,3 +22,15 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Project docs & internal notes
+/PRD.md
+/CLAUDE_CODE_INSTRUCTIONS.md
+
+# Temp files
+/tmp/
+
+# Verification-only tests (not for production repo)
+/tests/Feature/Tahap2VerificationTest.php
+/tests/Feature/Tahap3VerificationTest.php
+/tests/Feature/Tahap4VerificationTest.php
