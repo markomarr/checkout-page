@@ -34,3 +34,6 @@ yarn-error.log
 /tests/Feature/Tahap2VerificationTest.php
 /tests/Feature/Tahap3VerificationTest.php
 /tests/Feature/Tahap4VerificationTest.php
+
+# Claude Code local settings
+/.claude/
