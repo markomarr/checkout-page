@@ -216,7 +216,7 @@
                                 class="flex min-h-[44px] items-center justify-center rounded-lg border border-dashed border-[#E5E7EB] px-3 cursor-pointer text-[#6B7280] text-center">
                                 <span>Pilih file (JPG, PNG, atau PDF, maks 2MB)</span>
                             </label>
-                            <input type="file" id="payment_proof" name="payment_proof" accept=".jpg,.jpeg,.png,.pdf" class="w-full text-sm">
+                            <input type="file" id="payment_proof" name="payment_proof" accept=".jpg,.jpeg,.png,.pdf" class="w-full min-h-[44px] text-sm">
                             @error('payment_proof')
                                 <p class="text-[#EF4444] text-sm mt-1">{{ $message }}</p>
                             @enderror
